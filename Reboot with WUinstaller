@@ -1,0 +1,6 @@
+set year=%date:~10,4%
+set month=%date:~4,2%
+set day=%date:~7,2%
+set filename=%year%_%month%_%day%
+
+C:\Updates\WuInstall /reboot >>C:\Updates\WUInstall_%year%_%month%_%day%.log 2>&1
